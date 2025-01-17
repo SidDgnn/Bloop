@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title> BLOOP </title>
+    <meta name="description" content="From the Mind of Matt Furie, Straight to the Moon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!--aos-->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/main.css?v=1" />
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+    <audio id="background-music" autoplay loop>
+        
+        <source src="son.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas la lecture audio.
+            
+                Votre navigateur ne support
+        </audio>
+
+    <style>
+        /* Fond avec dégradé */
+/* Style des bulles */
+/* Style des bulles */
+.bubble {
+    position: absolute;
+    bottom: -100px; /* Débute en dehors de l'écran */
+    width: 40px;
+    height: 40px;
+    background: rgba(237, 72, 72, 0.6); /* Rouge semi-transparent */
+    border: 2px solid rgba(0, 123, 255, 0.6); /* Bordure bleue légère */
+    border-radius: 50%; /* Forme de cercle */
+    animation: move 10s infinite, zoom 10s infinite;
+    animation-timing-function: ease-in-out;
+    opacity: 0.8;
+}
+
+/* Multiples tailles et vitesses */
+.bubble:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    animation-duration: 12s, 12s;
+    left: 25%;
+}
+
+.bubble:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    animation-duration: 8s, 8s;
+    left: 50%;
+}
+
+.bubble:nth-child(4) {
+    width: 50px;
+    height: 50px;
+    animation-duration: 15s, 15s;
+    left: 75%;
+}
+
+.bubble:nth-child(5) {
+    width: 70px;
+    height: 70px;
+    animation-duration: 18s, 18s;
+    left: 90%;
+}
+
+.bubble:nth-child(6) {
+    width: 30px;
+    height: 30px;
+    animation-duration: 9s, 9s;
+    left: 10%;
+}
+
+/* Animation pour le mouvement vertical */
+@keyframes move {
+    0% {
+        transform: translateY(0) translateX(0);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translateY(-50vh) translateX(20px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(-100vh) translateX(-20px);
+        opacity: 0.4;
+    }
+}
+
+    </style>
+
+    <!-- ======= herder start ======= -->
+    <header class="header">
+        <div class="navbar-area">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg ">
+
+                    <a class="navbar-brand" href="/">
+            Bloop
+          </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon"></span>
+            <span class="toggler-icon"></span>
+            <span class="toggler-icon"></span>
+          </button>
+
+                    <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                        <ul id="nav" class="navbar-nav ms-auto">
+
+                            <li class="nav-item">
+                                <a class="page-scroll" href="#home"> Home </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="page-scroll" href="#about"> About </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="page-scroll" href="#tokenomics"> Tokenomics </a>
+                            </li>
+
+
+
+                            <li class="nav-item">
+                                <a class="page-scroll" href="#buy"> HOW TO BUY </a>
+                            </li>
+
+
+
+
+                        </ul>
+
+                        <ul id="nav" class="navbar-nav nav-social ms-auto d-none">
+
+                            <li class="nav-item">
+                                <a href="shop.html" target="_blank" class="apply-btn">
+
+                  Shop
+
+                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!--.collapse-->
+
+                </nav>
+
+            </div>
+            <!--.container-->
+
+
+        </div>
+        <!--.navbar-area-->
+
+    </header>
+    <!-- ======= herder end ======= -->
+
+
+    <section id="home" class="hero-area">
+        <div class="container">
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+
+            <div class="row gy-3 align-items-center gx-0 justify-content-between">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="hero-text">
+                        <h1>
+
+                            Unleash Your <br> inner bloop
+
+                        </h1>
+
+                        <p>
+                            Bloop Furpal isn't just another memecoin - he is one of the original hand-drawn Hedz characters created by the legendary Matt Furie himself. Jump in and ride the wave of crypto history with a coin as iconic as its creator!
+                        </p>
+
+                        <div class="hero-btn">
+                            <a href="https://jup.ag/swap/SOL-HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT" target="_blank" class="btn-2"> Buy now </a>
+
+                            <a href="https://dexscreener.com/solana/HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT" target="_blank" class="btn-2-outline"> Live Chart </a>
+                        </div>
+                        <!-- /.hero-btn -->
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+                    </div>
+                    <!-- /.hero-txt -->
+                </div>
+                <!-- /.col-lg-6 -->
+
+                <div class="col-lg-4 order-1 order-lg-2">
+                    <div class="position-relative">
+                        <img src="assets/img/hero/1-01.png" class="img-fluid w-100" alt="">
+
+                    </div>
+                </div>
+                <!-- /.col-lg-6 -->
+
+            </div>
+            <!-- /.row -->
+
+
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.hero-area -->
+
+
+
+
+    <section class="video-cta" id="about">
+        <div class="container">
+
+
+
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+
+
+
+            <div class="rw-col">
+                <div class="row justify-content-between gx-0 align-items-center gy-4">
+
+
+                    <div class="col-lg-5">
+                        <div class="row g-lg-4 g-2">
+                            <div class="col-6">
+                                <div class="img-bx">
+                                    <img src="assets/img/abt/1.png" class="img-fluid" alt="img">
+                                </div>
+                                <!-- /.img-bx -->
+                            </div>
+                            <!-- /.col-6 -->
+                            <div class="col-6">
+                                <div class="img-bx">
+                                    <img src="assets/img/abt/2.png" class="img-fluid" alt="img">
+                                </div>
+                                <!-- /.img-bx -->
+                            </div>
+                            <!-- /.col-6 -->
+
+                            <div class="col-6">
+                                <div class="img-bx">
+                                    <img src="assets/img/abt/3.png" class="img-fluid" alt="img">
+                                </div>
+                                <!-- /.img-bx -->
+                            </div>
+                            <!-- /.col-6 -->
+                            <div class="col-6">
+                                <div class="img-bx">
+                                    <img src="assets/img/abt/4.png" class="img-fluid" alt="img">
+                                </div>
+                                <!-- /.img-bx -->
+                            </div>
+                            <!-- /.col-6 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.col-lg-4 -->
+
+                    <div class="col-lg-6">
+
+                        <div class="sec-t" data-aos="zoom-in" data-aos-duration="2000">
+                             <!-- Bulles -->
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+                            <h2> About Us </h2>
+                            <p>
+                                From the Mind of Matt Furie, Straight to the Moon
+                            </p>
+
+                        </div>
+                        <!-- /.sec-t -->
+
+                        <div class="abt-txxt" data-aos="fade-right" data-aos-duration="1500">
+                            <p>
+                                Bloop Furpal isn’t just a token - it's a cosmic meme with the DNA of Matt Furie's iconic creations. Hand-drawn as part of his 1,000 Hedz, Bloop is here to break the internet and melt faces. Fueled by the power of Furie’s art and the unstoppable degen
+                                energy of crypto, we’re taking this thing beyond the moon. If you missed $PEPE, don’t sleep on Bloop - this is your chance to get in early and ride the next cultural wave. Only the most based and loyal will thrive!
+                            </p>
+                        </div>
+                        <!-- /.abt-txxt -->
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+                        <div class="row gy-3 justify-content-center">
+                            <div class="col-lg-6 col-10">
+                                <a href="https://dexscreener.com/solana/HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT" target="_blank" class="btn-abi">
+                  <img src="assets/img/abt/dex.png" alt="icon">
+                  <span> Live Chart</span>
+                </a>
+                            </div>
+                            <!-- /.col-lg-6 -->
+                            <div class="col-lg-6 col-10">
+                                <a href="https://www.dextools.io" target="_blank" class="btn-abi">
+                  <img src="assets/img/abt/dextools.svg" alt="icon">
+                  <span> Live Chart </span>
+                </a>
+                            </div>
+                            <!-- /.col-lg-6 -->
+                            <div class="col-lg-6 col-10">
+                                <a href="https://jup.ag/swap/SOL-HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT" target="_blank" class="btn-abi">
+                  <img src="assets/img/abt/jupiter-ag-jup-logo.png" alt="icon">
+                  <span> Buy on Jupiter </span>
+                </a>
+                            </div>
+                            <!-- /.col-lg-6 -->
+                            <div class="col-lg-6 col-10">
+                                <a href="https://app.meteora.ag/pools/HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT" target="_blank" class="btn-abi">
+                  <img src="assets/img/abt/me.svg" alt="icon">
+                  <span>Buy on Meteora </span>
+                </a>
+                            </div>
+                            <!-- /.col-lg-6 -->
+                        </div>
+                        <!-- /.row -->
+
+                    </div>
+                    <!-- /.col-lg-5 -->
+
+
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.rw-col -->
+
+
+
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+
+
+
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.video-cta -->
+
+
+    <section id="tokenomics" class="tokeno">
+        <div class="container">
+            <div class="sec-t" data-aos="fade-up" data-aos-duration="500">
+                <h2> Tokenomics </h2>
+                <p>
+                    Here are the details
+                </p>
+            </div>
+            <!-- /.sec-t -->
+
+            <div class="mb-4">
+                <div class="row gy-4">
+                    <div class="col-lg-6">
+                        <div class="token-single" data-aos="fade-up" data-aos-duration="1700">
+                            <div class="token-inner">
+                                <span> Supply </span>
+                                <h5 class="mb-3"> 1 billion tokens </h5>
+                                <p>
+                                    Perfectly sized for maximum Bloop energy.
+                                </p>
+                            </div>
+                            <!-- /.token-inner -->
+                        </div>
+                        <!-- /.token-single -->
+                    </div>
+                    <!-- /.col-12 -->
+                    <div class="col-lg-6">
+                        <div class="token-single" data-aos="fade-up" data-aos-duration="1800">
+                            <div class="token-inner">
+                                <span> Taxes </span>
+                                <h5 class="mb-3"> 0% </h5>
+                                <p>
+                                    Because greatness doesn’t come with fees.
+                                </p>
+                            </div>
+                             <!-- Bulles -->
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+                            <!-- /.token-inner -->
+                        </div>
+                        <!-- /.token-single -->
+                    </div>
+                    <!-- /.col-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.mb-4 -->
+
+
+
+
+
+
+
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4">
+                    <div class="token-single" data-aos="fade-up" data-aos-duration="1900">
+                         <!-- Bulles -->
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+                        <div class="token-inner">
+                            <span> Burn Mechanism </span>
+                            <p>
+                                We host regular buy-and-burn events, reducing the supply and pumping the price.
+                            </p>
+                        </div>
+                        <!-- /.token-inner -->
+                    </div>
+                    <!-- /.token-single -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <div class="token-single" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="token-inner">
+                            <span> Mint Revoked </span>
+                            <p>
+                                No minting more - what’s out there is all there’ll ever be.
+                            </p>
+                        </div>
+                        <!-- /.token-inner -->
+                    </div>
+                    <!-- /.token-single -->
+                </div>
+                <!-- /.col-lg-4 -->
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+                <div class="col-lg-4">
+                    <div class="token-single" data-aos="fade-up" data-aos-duration="2200">
+                         <!-- Bulles -->
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+                        <div class="token-inner">
+                            <span> Freeze Revoked </span>
+                            <p> This Bloop ain't slowing down. Ever. </p>
+                        </div>
+                        <!-- /.token-inner -->
+                    </div>
+                    <!-- /.token-single -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <div class="col-lg-4">
+                     <!-- Bulles -->
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+                    <div class="token-single" data-aos="fade-up" data-aos-duration="2400">
+                        <div class="token-inner">
+                            <span> All Supply in Circulation </span>
+                            <p> No surprises, just pure degen fun. </p>
+                        </div>
+                        <!-- /.token-inner -->
+                    </div>
+                    <!-- /.token-single -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <div class="col-lg-4">
+                     <!-- Bulles -->
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+                    <div class="token-single" data-aos="fade-up" data-aos-duration="2400">
+                         <!-- Bulles -->
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+                        <div class="token-inner">
+                            <span> Token Name </span>
+                            <h5> Bloop Furpal </h5>
+                        </div>
+                        <!-- /.token-inner -->
+                    </div>
+                    <!-- /.token-single -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <div class="col-lg-4">
+                     <!-- Bulles -->
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+                    <div class="token-single" data-aos="fade-up" data-aos-duration="2400">
+                        <div class="token-inner">
+                            <span> TOKEN SYMBOL </span>
+                            <h5> BLOOP </h5>
+                        </div>
+                        <!-- /.token-inner -->
+                    </div>
+                    <!-- /.token-single -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+            </div>
+            <!-- /.row -->
+
+
+
+
+
+
+            <div class="contract-adress">
+
+                <div class="firt">
+                    <span> CONTRACT ADDRESS </span>
+                     <!-- Bulles -->
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+   <div class="bubble"></div>
+                    <p>
+                        HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT
+                    </p>
+
+                </div>
+                <!-- /.firt -->
+
+                <div class="btn-cun">
+                    <button onclick="copy('HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT','#copy_button_2')" id="copy_button_2" class="copy-button" data-bs-toggle="tooltip" data-bs-placement="top" title="Copied!">
+            <img src="assets/img/copy.png" alt="copy">
+          </button>
+                </div>
+                <!-- /.btn-cun -->
+
+
+            </div>
+            <!-- /.contract-adress -->
+
+            <div class="mt-lg-5 mt-4 text-center d-none">
+                <a href="#" class="btn-red-outline px-4" style="font-size: 14px;"> View Live chart on dextools </a>
+            </div>
+
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.tokeno -->
+
+
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+
+    <section class="case" id="buy">
+        <div class="container">
+            <div class="sec-t" data-aos="fade-down" data-aos-duration="1000">
+                <h2>
+                    How to Buy
+                </h2>
+                <p>
+                    How to Buy BLOOP (No, Seriously)
+                </p>
+
+
+            </div>
+            <!-- /.sec-t -->
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3">
+                    <div class="case-single" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+
+                        <div class="case-in">
+                            <span>1</span>
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+                            <h3> Get a Solana Wallet </h3>
+                            <p>
+                                We recommend Phantom, Solflare, or any wallet that won’t rug you.
+                            </p>
+
+                            <img src="assets/img/gif/3.gif" class="img-fluid" alt="gif">
+
+                        </div>
+                        <!-- /.case-in -->
+
+                    </div>
+                    <!-- /.case-single -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <div class="col-lg-3">
+                    <div class="case-single" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="case-in">
+                            <span>2</span>
+
+                            <h3> Load That Bad Boy </h3>
+                            <p>
+                                Buy some SOL from your favorite exchange and load it up in your wallet.
+                            </p>
+
+                            <img src="assets/img/gif/4.gif" class="img-fluid" alt="gif">
+
+
+                        </div>
+                        <!-- /.case-in -->
+                    </div>
+                    <!-- /.case-single -->
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <div class="col-lg-3">
+
+                    <div class="case-single" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="case-in">
+                            <span>3</span>
+
+                            <h3> Hit Up Jupiter or Meteora </h3>
+                            <p>
+                                Go to Jupiter or Meteora, type in BLOOP, and swap that SOL for some next-level meme magic.
+                            </p>
+
+                            <img src="assets/img/gif/6.gif" class="img-fluid" alt="gif">
+
+                        </div>
+                        <!-- /.case-in -->
+                    </div>
+                    <!-- /.case-single -->
+
+                </div>
+                <!-- /.col-lg-4 -->
+
+
+                <div class="col-lg-3">
+                    <div class="case-single" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+                        <div class="case-in">
+                            <span>4</span>
+
+                            <h3> Welcome to the BLOOP Army </h3>
+                            <p>
+                                You’re now a proud holder of the most hyped memecoin in the galaxy. Flex on your friends, and let the world know you’ve got BLOOP in your wallet.
+                            </p>
+
+                            <img src="assets/img/gif/7.gif" class="img-fluid" alt="gif">
+
+                        </div>
+                        <!-- /.case-in -->
+
+                    </div>
+                    <!-- /.case-single -->
+                </div>
+                <!-- /.col-lg-4 -->
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+
+            </div>
+            <!-- /.row -->
+
+            <div class="my-lg-5 my-4">
+                <div class="row gy-3 justify-content-center">
+                    <div class="col-lg-3 col-md-6 col-10">
+                        <a href="https://dexscreener.com/solana/HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT" target="_blank" class="btn-abi">
+              <img src="assets/img/abt/dex.png" alt="icon">
+              <span> Live Chart</span>
+            </a>
+                    </div>
+                    <!-- /.col-lg-6 -->
+                    <div class="col-lg-3 col-md-6 col-10">
+                        <a href="https://www.dextools.io" target="_blank" class="btn-abi">
+              <img src="assets/img/abt/dextools.svg" alt="icon">
+              <span> Live Chart </span>
+            </a>
+                    </div>
+                    <!-- /.col-lg-6 -->
+                    <div class="col-lg-3 col-md-6 col-10">
+                        <a href="https://jup.ag/swap/SOL-HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT" target="_blank" class="btn-abi">
+              <img src="assets/img/abt/jupiter-ag-jup-logo.png" alt="icon">
+              <span> Buy on Jupiter </span>
+            </a>
+                    </div>
+                    <!-- /.col-lg-6 -->
+                    <div class="col-lg-3 col-md-6 col-10">
+                        <a href="https://app.meteora.ag/pools/8J3aFvvggBAZ1D27Xq3aCTKBPXpLbjTr1ULHFL8onhRN" target="_blank" class="btn-abi">
+              <img src="assets/img/abt/me.svg" alt="icon">
+              <span>Buy on Meteora </span>
+            </a>
+                    </div>
+                    <!-- /.col-lg-6 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.my-4 -->
+ <!-- Bulles -->
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+ <div class="bubble"></div>
+
+            <img src="assets/img/gif/round.webp" class="w-100" style="border-radius: 22px;" alt="">
+
+
+
+
+
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.case -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="social-section">
+        <div class="container">
+            <div class="sec-t">
+                <h2> JOIN BLOOP </h2>
+                <p>
+                    Follow us on Social Media
+                </p>
+            </div>
+            <!-- /.sec-t -->
+
+            <div class="social-conx">
+                <a href="https://x.com/BloopFurpalX" target="_blank">
+          <img src="assets/img/social/x.svg" alt="x">
+
+        </a>
+                <a href="https://t.me/bloopsolana" target="_blank">
+          <img src="assets/img/social/telegram.svg" alt="telegram">
+
+        </a>
+
+            </div>
+            <!-- /.social-conx -->
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.social-section -->
+
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-logo-w">
+                <h5> BLOOP </h5>
+                <p> © 2024 BLOP </p>
+            </div>
+            <!-- /.footer-logo-w -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- /.main-footer -->
+
+
+
+    <div class="page-loader">
+        <span class="loader"></span>
+    </div>
+    <!-- /.page-loader -->
+
+
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- aos JS -->
+    <script src="assets/js/aos.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+
+
+    <script>
+        // Initialize Bootstrap tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl, {
+                trigger: 'manual' // Manually control the tooltip
+            });
+        });
+
+        function copy(text, target) {
+            var button = document.querySelector(target);
+
+            // Create a temporary input element to copy the text
+            var input = document.createElement('input');
+            input.setAttribute('value', text);
+            document.body.appendChild(input);
+            input.select();
+            var result = document.execCommand('copy');
+            document.body.removeChild(input);
+
+            // Show the tooltip
+            var tooltip = bootstrap.Tooltip.getInstance(button);
+            tooltip.show();
+
+            // Hide the tooltip after 800ms
+            setTimeout(function() {
+                tooltip.hide();
+            }, 800);
+
+            return result;
+        }
+    </script>
+
+
+
+</body>
+
+
+</html>
